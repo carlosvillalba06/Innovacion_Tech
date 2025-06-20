@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="650.0" style="-fx-background-color: #FAF8F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="404.0" prefWidth="116.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutY="204.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="129.0" style="-fx-background-color: #9E9B9A;" text="Dashboard" />
+            <Button layoutY="250.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Usuario" />
+            <Button layoutX="1.0" layoutY="342.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="127.0" style="-fx-background-color: #CECBCA;" text="Platillos" />
+            <Button layoutY="296.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Mesas" />
+            <Button layoutX="2.0" layoutY="388.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: #CECBCA;" text="Categorias" />
+            <ImageView fitHeight="70.0" fitWidth="68.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/person_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="2.0" layoutY="120.0" text="Waiter rating" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="42.0" layoutY="35.0" prefHeight="178.0" prefWidth="193.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="59.0" layoutY="30.0" text="Waiter rating" />
+                  <Label layoutX="62.0" layoutY="80.0" text="9.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="144.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/star_29dp_FFFF55_FILL1_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="280.0" layoutY="37.0" prefHeight="174.0" prefWidth="185.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="68.0" layoutY="39.0" text="Waiter team" />
+                  <Label layoutX="68.0" layoutY="72.0" text="15">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="138.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/atr_29dp_FFFF55_FILL1_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="42.0" layoutY="234.0" prefHeight="200.0" prefWidth="422.0" style="-fx-background-color: white;">
+               <children>
+                  <Pane layoutY="91.0" prefHeight="109.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="39.0" layoutY="35.0" prefHeight="165.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="81.0" layoutY="91.0" prefHeight="109.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="129.0" layoutY="39.0" prefHeight="161.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="181.0" layoutY="91.0" prefHeight="109.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="236.0" layoutY="91.0" prefHeight="109.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="298.0" layoutY="53.0" prefHeight="147.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+                  <Pane layoutX="363.0" layoutY="91.0" prefHeight="109.0" prefWidth="30.0" style="-fx-background-color: lightblue;" />
+               </children>
+            </Pane>
+            <Label layoutX="42.0" layoutY="226.0" text="Ventas">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
