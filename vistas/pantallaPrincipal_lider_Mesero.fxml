@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <Pane prefHeight="800.0" prefWidth="263.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/lider.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="338.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="262.0" style="-fx-background-color: #9E9B9A;" text="Solicitudes">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutY="429.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="262.0" style="-fx-background-color: #CECBCA;" text="Visualizar mesas y meseros">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="72.0" layoutY="80.0" text="Solicitud de eliminación">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="466.0" text="Solicitud de modificación">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0ede3" height="265.0" layoutX="74.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="784.0" />
+            <Label layoutX="117.0" layoutY="147.0" text="Mesa: 1">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="234.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: white;" text="Cancelar" />
+            <Button layoutX="547.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #00203E;" text="Aceptar" textFill="WHITE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="101.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="727.0" />
+            <TextField layoutX="117.0" layoutY="257.0" prefHeight="31.0" prefWidth="121.0" />
+            <TextField layoutX="258.0" layoutY="257.0" prefHeight="31.0" prefWidth="121.0" />
+            <TextField layoutX="408.0" layoutY="257.0" prefHeight="31.0" prefWidth="121.0" />
+            <TextField layoutX="537.0" layoutY="257.0" prefHeight="31.0" prefWidth="121.0" />
+            <TextField layoutX="683.0" layoutY="257.0" prefHeight="31.0" prefWidth="121.0" />
+            <Label layoutX="117.0" layoutY="216.0" opacity="0.75" text="Solicitud_id:" />
+            <Label layoutX="271.0" layoutY="216.0" opacity="0.75" text="Fecha:" />
+            <Label layoutX="408.0" layoutY="216.0" opacity="0.75" text="Hora:" />
+            <Label layoutX="537.0" layoutY="216.0" opacity="0.75" text="Mesero_saliente:" />
+            <Label layoutX="683.0" layoutY="216.0" opacity="0.75" text="Motivo:" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0ede3" height="265.0" layoutX="73.0" layoutY="504.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="784.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" layoutX="103.0" layoutY="567.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="727.0" />
+            <Label layoutX="117.0" layoutY="526.0" text="Mesa: 2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="599.0" opacity="0.75" text="Solicitud_id:" />
+            <Label layoutX="252.0" layoutY="599.0" opacity="0.75" text="Fecha:" />
+            <Label layoutX="361.0" layoutY="599.0" opacity="0.75" text="Hora:" />
+            <Label layoutX="476.0" layoutY="599.0" opacity="0.75" text="Mesero:" />
+            <Label layoutX="569.0" layoutY="599.0" opacity="0.75" text="Tipo de modificación" />
+            <Label layoutX="744.0" layoutY="599.0" opacity="0.75" text="Detalles:" />
+            <TextField layoutX="110.0" layoutY="650.0" prefHeight="31.0" prefWidth="87.0" />
+            <TextField layoutX="228.0" layoutY="650.0" prefHeight="31.0" prefWidth="87.0" />
+            <TextField layoutX="353.0" layoutY="650.0" prefHeight="31.0" prefWidth="87.0" />
+            <TextField layoutX="465.0" layoutY="650.0" prefHeight="31.0" prefWidth="87.0" />
+            <TextField layoutX="572.0" layoutY="650.0" prefHeight="31.0" prefWidth="133.0" />
+            <TextField layoutX="728.0" layoutY="650.0" prefHeight="31.0" prefWidth="87.0" />
+            <Button layoutX="234.0" layoutY="720.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: white;" text="Cancelar" />
+            <Button layoutX="572.0" layoutY="720.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: #00203E;" text="Aceptar" textFill="WHITE" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
