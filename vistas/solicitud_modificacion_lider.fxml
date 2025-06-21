@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="429.0" style="-fx-background-color: #DDDCD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="33.0" layoutY="29.0" text="Solicitud de modificación">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="138.0" text="Mesa:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="172.0" text="Fecha:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="204.0" text="Hora:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="240.0" text="Mesero:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="138.0" text="1" />
+      <Label layoutX="128.0" layoutY="172.0" text="20-06-2026" />
+      <Label layoutX="125.0" layoutY="204.0" text="2:30 pm" />
+      <Label layoutX="132.0" layoutY="240.0" text="getsai" />
+      <Label layoutX="56.0" layoutY="316.0" text="Tipo de modificación" />
+      <Label layoutX="57.0" layoutY="407.0" text="Detalles" />
+      <TextArea layoutX="56.0" layoutY="437.0" prefHeight="87.0" prefWidth="321.0" />
+      <SplitMenuButton layoutX="56.0" layoutY="355.0" mnemonicParsing="false" opacity="0.89" prefHeight="31.0" prefWidth="321.0" text="Tipo de modificación">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Button layoutX="48.0" layoutY="575.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="161.0" style="-fx-background-color: #00203E;" text="Aceptar Modificar" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="37.0" layoutX="249.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="139.0" />
+      <Button layoutX="258.0" layoutY="578.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="121.0" style="-fx-background-color: white;" text="Cancelar" />
+   </children>
+</Pane>
