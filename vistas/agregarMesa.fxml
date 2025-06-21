@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="440.0" style="-fx-background-color: DDDCD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="76.0" layoutY="54.0" text="Capacidad">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="76.0" layoutY="84.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <Button layoutX="256.0" layoutY="257.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: #005584;" text="Agregar" textFill="WHITE" />
+            <Button layoutX="91.0" layoutY="257.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: white;" text="Agregar" />
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="293.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
