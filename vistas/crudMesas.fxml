@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="434.0" prefWidth="113.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutY="383.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Categorias" />
+            <Button layoutY="337.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Platillos" />
+            <Button layoutY="291.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #9E9B9A;" text="Mesas" />
+            <Button layoutY="245.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Usuario" />
+            <Button layoutY="205.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Dashboard" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/person_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="7.0" layoutY="99.0" text="Jose Manuel Gonzalez" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FAF8F2;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="47.0" layoutY="82.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="135.0" style="-fx-background-color: white;" text="Agregar">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="37.0" layoutX="54.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/add_circle_29dp_0000F5_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="251.0" layoutY="89.0" prefHeight="28.0" prefWidth="235.0" promptText="      Search..." />
+            <ImageView fitHeight="21.0" fitWidth="22.0" layoutX="259.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/search_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="33.0" layoutY="167.0" prefHeight="252.0" prefWidth="436.0" style="-fx-background-color: #F4F4F4;">
+               <children>
+                  <Pane layoutY="-1.0" prefHeight="30.0" prefWidth="440.0" style="-fx-background-color: #E8E8E8;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="7.0" text="Id">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="61.0" layoutY="7.0" text="Capacidad">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="214.0" layoutY="7.0" text="Estado">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="342.0" layoutY="5.0" text="Acción">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="11.0" layoutY="50.0" text="1" />
+                  <Label layoutX="65.0" layoutY="50.0" text="4 personas" />
+                  <Label layoutX="205.0" layoutY="50.0" text="Dsiponible" />
+                  <ImageView fitHeight="61.0" fitWidth="113.0" layoutX="323.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Pictures/Screenshots/Captura%20de%20pantalla%202025-06-20%20154253.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
