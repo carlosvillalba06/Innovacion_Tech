@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
-<?import java.lang.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="615.0" style="-fx-background-color: #FAF8F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="615.0" style="-fx-background-color: #FAF8F2;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <left>
       <AnchorPane prefHeight="434.0" prefWidth="113.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
          <children>
@@ -62,7 +61,7 @@
                   <Label layoutX="241.0" layoutY="45.0" text="\$50" />
                   <ImageView fitHeight="26.0" fitWidth="114.0" layoutX="289.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Pictures/Screenshots/Captura%20de%20pantalla%202025-06-20%20154253.png" />
+                        <Image url="@imagenes/botones.png" />
                      </image>
                   </ImageView>
                </children>
