@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="440.0" style="-fx-background-color: DDDCD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="483.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="60.0" layoutY="61.0" text="Nombre">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="60.0" layoutY="91.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="277.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="60.0" layoutY="134.0" text="Precio">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="60.0" layoutY="164.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <Label layoutX="60.0" layoutY="213.0" text="Categoría">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="60.0" layoutY="234.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <Label layoutX="60.0" layoutY="279.0" text="Descripción">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="276.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="276.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="60.0" layoutY="306.0" prefHeight="74.0" prefWidth="239.0" />
+            <Label layoutX="68.0" layoutY="316.0" text="Placeholder" textFill="#c6c3c3" />
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="276.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="243.0" layoutY="417.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: #005584;" text="Agregar" textFill="WHITE" />
+            <Button layoutX="95.0" layoutY="417.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: white;" text="Agregar" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
