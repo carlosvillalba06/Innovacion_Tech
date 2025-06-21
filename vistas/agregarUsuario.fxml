@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="440.0" style="-fx-background-color: DDDCD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="383.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="88.0" layoutY="115.0" text="Apellido">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="188.0" text="Dirección">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="50.0" text="Nombre">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="88.0" layoutY="71.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <TextField layoutX="88.0" layoutY="142.0" prefHeight="32.0" prefWidth="239.0" promptText="Placeholder" />
+            <TextField layoutX="88.0" layoutY="219.0" prefHeight="87.0" prefWidth="239.0" />
+            <Button layoutX="275.0" layoutY="335.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: #005584;" text="Agregar" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="118.0" layoutY="335.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: white;" text="Cancelar">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="301.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="301.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="301.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/close_small_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="91.0" layoutY="227.0" text="Placeholder" textFill="#aeaeae" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
