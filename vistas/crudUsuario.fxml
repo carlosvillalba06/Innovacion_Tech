@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="626.0" style="-fx-background-color: #FAF8F2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="434.0" prefWidth="113.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutY="416.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Categorias" />
+            <Button layoutY="370.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Platillos" />
+            <Button layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #CECBCA;" text="Mesas" />
+            <Button layoutY="285.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: #9E9B9A;" text="Usuario" />
+            <Button layoutY="245.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="128.0" style="-fx-background-color: V #CECBCA;" text="Dashboard" />
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/person_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="5.0" layoutY="115.0" text="Juan Manuel Gonzalez" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="31.0" layoutY="53.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="135.0" style="-fx-background-color: white;" text="Agregar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/add_circle_29dp_0000F5_FILL1_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextField layoutX="249.0" layoutY="57.0" prefHeight="28.0" prefWidth="235.0" promptText="      Search..." />
+            <ImageView fitHeight="21.0" fitWidth="22.0" layoutX="255.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/search_29dp_000000_FILL1_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="165.0" prefHeight="252.0" prefWidth="436.0" style="-fx-background-color: F4F4F4;">
+               <children>
+                  <Pane layoutY="-2.0" prefHeight="33.0" prefWidth="440.0" style="-fx-background-color: #E8E8E8;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="4.0" text="Id">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="59.0" layoutY="4.0" text="Nombre">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="146.0" layoutY="4.0" text="Apellido">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="220.0" layoutY="6.0" text="Dirección">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="335.0" layoutY="4.0" text="Acción">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="14.0" layoutY="47.0" text="1" />
+                  <Label layoutX="79.0" layoutY="47.0" text="Mario" />
+                  <Label layoutX="159.0" layoutY="47.0" text="Angulo" />
+                  <Label layoutX="233.0" layoutY="46.0" text="N" />
+                  <ImageView fitHeight="139.0" fitWidth="111.0" layoutX="311.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Pictures/Screenshots/Captura%20de%20pantalla%202025-06-20%20154253.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
